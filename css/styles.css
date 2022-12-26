@@ -283,9 +283,6 @@ header {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
-.section-work {
-  padding-top: 0;
-}
 .bonuses-icon {
   fill: #212121;
 }
@@ -300,6 +297,46 @@ header {
   border-radius: 4px;
   margin-bottom: 30px;
 }
+
+/* Чим займаємось */
+.section-examples {
+  padding-top: 0;
+}
+.examples-title {
+  margin-top: 0;
+  margin-bottom: 50px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+.examples-list {
+  gap: 30px;
+  display: block;
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+.example {
+  position: relative;
+}
+.example>.label {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0;
+  padding: 27px 95px;
+  width: 100%;
+  height: 70px;
+
+  background-color: rgba(47, 48, 58, 0.8);
+  color: #fff;
+}
+
 /* Наша Комантда */
 .section-team {
   padding-top: 94px;
@@ -643,17 +680,6 @@ flex-direction: column;
   margin-bottom: 0;
   padding-left: 0;
 }
-.work-title {
-  margin-top: 0;
-  margin-bottom: 50px;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--title-text-color);
-}
 .work-item {
   margin-bottom: 0;
   font-style: normal;
@@ -670,14 +696,6 @@ flex-direction: column;
   gap: 4px;
 
 
-}
-.work-list {
-  gap: 30px;
-  display: block;
-  display: flex;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
 }
 .work-done {
   width: 370px;
@@ -736,5 +754,3 @@ flex-direction: column;
   border: 1px solid #eeeeee;
   border-top: none;
 }
-
-/* Background and Icons */
